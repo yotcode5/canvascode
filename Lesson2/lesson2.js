@@ -30,7 +30,7 @@ Parag.innerText=CODE;
 let bobo=`To the magic tool from lesson 1 add another button:
 
 beginPath
-beginPath() updates the line collection to be the empty collections,
+beginPath() updates the line collection to be the empty collection,
 and if there is point in the memory, it removes it. Notably, it affects neither
 the color nor the width.
 
