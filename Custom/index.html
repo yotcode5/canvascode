@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/canvascode/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <div class="btopnav">
+        <a id="welcome" href="/canvascode">Introduction</a>
+        <a id="Les1" href="/canvascode/Lesson1">Lesson 1</a>
+        <a id="Les2" href="/canvascode/Lesson2">Lesson 2</a>
+        <a id="custom" href="/canvascode/Custom">Custom Interactive Canvas</a>
+    </div>
+    <p id="guide" style="margin-left: 21px; font-family: Verdana, sans-serif; width: 640px; font-size: 15px; line-height: 1.5; margin-top: 69px; margin-bottom: 21px;"></p>
+    <div id="eyo" style="margin-left: 21px; margin-bottom: 21px;">
+        <button id="myBeginBtn" class="nicebuttonyay">Begin</button>
+        <button id="myFinishBtn" class="nicebuttonyay" disabled>Finish</button>
+    </div>
+    <p id="instructionS" style="display: none;"></p>
+    <div id="container">
+        <div class="topnav"><span class="material-symbols-outlined">
+            </span>
+            <a id="myLink" href="#" title="Download Current Canvas" style="display: none;"><span class="material-symbols-outlined">download</span></a>
+            <a id="myCopy" title="Copy Highlighted Code" style="display: none;"><span class="material-symbols-outlined">content_copy</span></a>
+            <a id="myUpload" title="Upload Background Image"><span class="material-symbols-outlined">upload</span></a>
+            <a id="myNasa" title="Use Nasa's Astronomy Picture of the Day as a Background Image" style="display: none;"><span class="material-symbols-outlined">rocket_launch</span></a>
+            <a id="myRemoveUpload" title="Remove Background Image"><span class="material-symbols-outlined">file_upload_off</span></a>
+            <a id="myResetBackground" title="Remove Background Image and Reset Canvas Size (400x400)"><span class="material-symbols-outlined">reset_image</span></a>
+        </div>   
+        <canvas id="myCanvas" width="400" height="400"></canvas>
+        <p id="Parag"></p>
+    </div>
+    <script src="custom.js"></script>
+</body>
+</html>
